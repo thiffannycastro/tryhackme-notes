@@ -20,6 +20,7 @@ cat [file]       # Display file content
 chmod +x [file]  # Make a file executable
 ps aux           # List all running processes
 kill [PID]       # Terminate a process
+
 ✍️ Notes / Key Learnings
 Learned how to navigate through the Linux file system using terminal commands.
 
@@ -30,6 +31,7 @@ Practiced basic process management (ps, kill).
 Reinforced basic commands like echo, touch, mkdir, rm, and man.
 
 📸 Badge Earned
+![Terminaled Badge](https://tryhackme-badges.s3.amazonaws.com/Thiffannycastro.png)
 
 I struggled a bit with understanding file permissions at first, but after running some chmod examples it clicked.
 
