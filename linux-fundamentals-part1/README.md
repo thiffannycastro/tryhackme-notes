@@ -4,42 +4,48 @@
 
 ## 🎯 Objective
 
-The **Linux Fundamentals Part 1** room introduces essential Linux commands and concepts, such as file navigation, file permissions, and the basic structure of the Linux file system.
-
-This room is the starting point to build a solid foundation in Linux, which is essential for system administration and cybersecurity.
+This room introduces essential Linux concepts and terminal commands. It focuses on file system navigation, searching inside files, and using operators to control and combine commands.
 
 ## 🛠️ Commands Practiced
 
 ```bash
-pwd                # Print current directory
-ls -l / ls -a      # List files with details and show hidden files
-cd [directory]     # Change directory
-cat [file]         # Display file content
-touch [file]       # Create an empty file
-mkdir [directory]  # Create a new directory
-rm [file]          # Remove a file
-rmdir [directory]  # Remove an empty directory
-file [file]        # Identify file type
-man [command]      # Show manual page for a command
+cd                 # Change directory
+ls                 # List directory contents
+cat                # Concatenate and display file content
+pwd                # Print working directory
+grep               # Search for specific strings inside files
+find               # Search for files and directories
+ctrl+L             # Clear the terminal screen
+
+## 🔧 Operators Used
+
+&                  # Run a command in the background
+&&                 # Combine multiple commands on one line
+>                  # Redirect output to a file (overwrite)
+>>                 # Append output to a file (no overwrite)
 
 📂 Key Concepts Covered
-Linux file system structure (/home, /etc, /bin, etc.)
 
-Basic file operations: creating, deleting, and viewing files
+Navigating the Linux file system using cd, ls, pwd
 
-Using ls, pwd, cd to navigate the system
+Viewing file content with cat
 
-Understanding and using chmod for file permissions
+Searching inside files using grep
 
-Checking file types using the file command
+Locating files/directories using find
+
+Combining and redirecting commands using shell operators
+
+Cleaning the terminal with Ctrl + L
 
 🧠 Takeaways
-Learned how to navigate the Linux file system using the terminal.
 
-Gained hands-on experience with file creation, deletion, and modification.
+Learned how to move between directories and list their contents.
 
-Understood the importance of file permissions and how to manage them with chmod.
+Practiced searching for text within files using grep.
 
-Became comfortable using man to explore commands and options.
+Understood how to redirect and append output using > and >>.
 
-This room is crucial for building a strong foundation in Linux!
+Got familiar with combining commands using && and running them in the background with &.
+
+Reinforced the use of find to locate files and folders from the terminal.
