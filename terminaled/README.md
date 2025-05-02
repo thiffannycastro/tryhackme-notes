@@ -21,17 +21,22 @@ chmod +x [file]  # Make a file executable
 ps aux           # List all running processes
 kill [PID]       # Terminate a process
 
-✍️ Notes / Key Learnings
-Learned how to navigate through the Linux file system using terminal commands.
+## Key Concepts Covered
 
-Understood file permission concepts and how to modify them using chmod.
+- Navigating the file system
+- Managing files and directories
+- Understanding and changing file permissions
+- Working with processes
+- Using `man` pages for help
 
-Practiced basic process management (ps, kill).
+## 🧠 Takeaways
 
-Reinforced basic commands like echo, touch, mkdir, rm, and man.
+- Practiced core terminal commands: `pwd`, `ls`, `cd`, `chmod`, `ps`, `kill`, and more.
+- Learned how to navigate the Linux file system using the terminal.
+- Understood how file permissions work and how to modify them.
+- Got familiar with viewing and managing running processes.
+- This room helped solidify my terminal basics — and I earned my first badge! 🏅
 
-📸 Badge Earned
 ![Terminaled Badge](https://tryhackme-badges.s3.amazonaws.com/Thiffannycastro.png)
 
-I struggled a bit with understanding file permissions at first, but after running some chmod examples it clicked.
 
